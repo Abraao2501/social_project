@@ -1,0 +1,66 @@
+{
+    "0": {
+        "title" : "Baixe a distribuição Linux de sua escolha.",
+        "content" : "As distribuições Linux são normalmente disponibilizadas para download grátis em formato ISO. Você pode encontrar o arquivo ISO para a distribuição de sua escolha no site correspondente. Este formato deve ser gravado em um CD antes de você poder usá-lo para instalar o Linux. Isto criará um Live CD. Um Live CD permite que você faça o boot a partir dele e frequentemente contém uma prévia do sistema operacional que pode rodar diretamente do CD, sem instalação.Instale um programa para gravar a imagem do CD ou use a ferramenta embutida em seu sistema operacional se estiver usando Windows 7, 8, ou Mac OS X."
+    },
+    "1": {
+        "title" : "Faça o boot do Live CD",
+        "content" : "A maioria dos computadores é configurada para fazer o boot do disco rígido primeiro, o que significa que você precisará mudar essas configurações para fazer o boot do CD que acabou de gravar. Comece reiniciando o computador. Quando o computador iniciar, aperte a tecla de configuração da BIOS. Essa tecla aparecerá na tela juntamente com o logo do fabricante. Teclas tipicamente usadas incluem F12, F2, ou Del. Para usuários de Windows 8, segure a tecla Shift e clique em reiniciar. Isto carregará as Opções Avançadas de Startup, onde você pode fazer o boot do CD. Vá ao menu de Boot e configure o computador para fazer o boot do drive de CD. Salve as alterações e saia da configuração da BIOS. O computador reiniciará de novo. Pressione qualquer tecla quando aparecer a mensagem 'Boot from CD'."
+    },
+    "2": {
+        "title" : "Experimente a distribuição Linux antes de instalar",
+        "content" : "A maioria dos Live CDs pode rodar o sistema operacional diretamente do CD. Você não poderá criar arquivos, mas poderá navegar pelo sistema e decidir se ele lhe agrada."
+    },
+    "3": {
+        "title" : "Inicie o processo de instalação.",
+        "content" : " Se você estiver testando a distribuição, pode iniciar a instalação pelo atalho na área de trabalho. Se decidiu não testar a distribuição, você pode iniciar a instalação pelo menu de boot. Você provavelmente terá que configurar algumas opções básicas como idioma, layout do teclado e fuso horário."
+    },
+    "4": {
+        "title" : "Crie um usuário e senha",
+        "content" : "Você terá que criar informações de login para instalar o Linux. Você precisará de sua senha para entrar no Linux, bem como para realizar tarefas administrativas no sistema."
+    },
+    "5": {
+        "title" : "Configure a partição do disco rígido",
+        "content" : "O Linux deve ser instalado em uma partição separada dos outros sistemas operacionais existentes no seu computador. Uma partição é uma parte do disco rígido formatada especialmente para aquele sistema operacional. Distribuições como o Ubuntu farão automaticamente a configuração de uma partição recomendada. Você pode também ajustar esse configuração manualmente. A maioria das instalações de Linux precisa de 4-5 GB de espaço de disco. Verifique se há espaço suficiente para o sistema operacional Linux, bem como para outros programas e arquivos que você pretende instalar ou criar. Se o processo de instalação não sugerir automaticamente uma partição, crie manualmente uma partição formatada no padrão Ext4. Se o Linux a ser instalado for o único sistema operacional no computador, você provavelmente terá que configurar manualmente o tamanho da partição."
+    },
+    "6": {
+        "title" : "Faça o boot do Linux.",
+        "content" : "Faça o boot do Linux. Depois que a instalação for concluída, o computador reiniciará. Você então verá uma nova tela chamada “GNU GRUB”. Este é um boot loader que administra as instalações de Linux. Escolha sua recém-instalada distribuição Linux da lista. Se você instalar várias distribuições, elas estarão todas listadas aqui."
+    },
+    "7": {
+        "title" : "Verifique seu hardware.",
+        "content" : "A maior parte dos hardwares deve funcionar automaticamente com sua distribuição Linux, mas talvez você precise baixar alguns drivers adicionais para que tudo funcione corretamente. Alguns itens de hardware precisam de drivers específicos para funcionar corretamente no Linux. Isto é mais comum com placas de vídeo. Geralmente, existe um driver de código aberto que funciona, mas para acessar todos os recursos da placa, você precisará baixar os driver apropriados do site do fabricante. No Ubuntu, você pode baixar drivers através do menu de Configurações do Sistema. Escolha a opção Drivers Adicionais e então selecione o driver de vídeo da lista. Outras distribuições têm seus próprios métodos para obter drivers adicionais. Você pode encontrar outros drivers nessa lista também, como drivers de rede Wi-Fi."
+    },
+    "8": {
+        "title" : "Comece a usar o Linux. ",
+        "content" : "Após completar a instalação e verificar que seu hardware está funcionando, você está pronto para começar a usar o Linux. A maioria das distribuições vêm com diversos programas populares instalados e você pode baixar muitos mais dos seus respectivos repositórios de arquivos."
+    },
+    "9": {
+        "title" : "Comando PWD",
+        "content" : "Use o comando pwd para encontrar o caminho para o diretório atual (da pasta) em que você está. O comando vai retornar um caminho completo (cheio), que é basicamente um caminho que começa com uma barra inclinada (/). Um exemplo de um caminho completo é /home/username."
+    }, 
+    "10": {
+        "title" : "Comando CD",
+        "content" : "Para navegar pelo filesystem do Linux, use o comando cd. Ele requer ou um caminho completo ou o nome de um diretório, dependendo do diretório atual em que você estiver. Vamos dizer que você esteja em /home/username/Documents e quer ir para Photos, um subdiretório de Documents. Para fazer isso, simplesmente digite cd Photos.  Outro cenário em que você quer mudar completamente de diretório, digamos, para /home/username/Movies. Nesse caso, você tem que digitar cd seguido pelo caminho absoluto do diretório.   "
+    }, 
+    "11": {
+        "title" : "Comando LS",
+        "content" : "O comando ls é usado para visualizar conteúdos em um diretório. Por padrão, esse comando vai mostrar os conteúdos apenas do diretório atual em que você estiver. Se você quiser ver o conteúdo de outros diretórios, digite ls e, então, o caminho do diretório. Por exemplo, digite ls /home/username/Documents para ver os conteúdos de Documents."
+    },
+    "12": {
+        "title" : "Comando CAT",
+        "content" : "O cat (abreviação para concatenar) é um dos comandos Linux mais usados. Ele é usado para visualizar o conteúdo de um arquivo na saída padrão (sdout). Para executar esse comando, digite cat seguido pelo nome do arquivo e sua extensão. Por exemplo: cat file.text."
+    },
+    "13": {
+        "title" : "Comando CP",
+        "content" : "Use o comando cp para copiar arquivo do diretório atual em que você estiver. Por exemplo, o comando cp scenery.jpg /home/username/Picturesvai criar uma cópia de scenery.jpg para o diretório Pictures. "
+    },
+    "14": {
+        "title" : "Primeiros Passos",
+        "content" : "O Linux é uma família inteira de sistemas operacionais Unix, que é baseado no Kernel do Linux. Isso inclui a maioria dos sistemas baseados em Linux, como Ubuntu, Fedora, Mint, Debian, entre outros. Mais precisamente, eles são chamados de distribuições ou simplesmente distros. Desde que foi lançado em 1991, ele continuou a ganhar popularidade devido a sua natureza em ser de código aberto. Por causa disso, as pessoas podem livremente modificá-lo e redistribui-lo sob seu próprio nome. Ainda que o Linux não supere o Windows em participação de mercado, suas distribuições são extremamente populares entre os provedores de hospedagem de sites. Graças à estabilidade, flexibilidade e segurança, 36.7% dos sites na internet usam Linux como seus servidores de sistemas operacionais."
+    },
+    "15": {
+        "title" : "Finalização",
+        "content" : "Se você ficou interessado em aprender um pouco mais do terminal do Linux, mas ainda não deseja instalar um novo sistema, existe uma solução. Para isso basta acessar e criar uma conta no site Webminal.org. Apesar de ele funcionar como uma boa ferramenta de aprendizado, alguns comandos mais complexos ou que requerem privilégios administrativos podem não funcionar nele. Em compensação, o site ainda traz algumas lições extras com outros comandos para serem aprendidos."
+    }
+}
